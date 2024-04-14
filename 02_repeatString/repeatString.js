@@ -1,8 +1,15 @@
 const repeatString = function(myString, myNum) {
-    myString = 'hey';
-    for (let i = 0; i > 0; i++) {
-        myNum = i;
-        
+    let oldString = myString;
+    let myArr = [];
+
+    if (myNum >= 0) {
+        for (let i = 0; i < myNum; i++) {
+            myArr[i] = oldString;
+        };
+    
+        return myArr.join("");
+    } else {
+        return 'ERROR';
     }
 };
 
