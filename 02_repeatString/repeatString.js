@@ -6,7 +6,6 @@ const repeatString = function(myString, myNum) {
         for (let i = 0; i < myNum; i++) {
             myArr[i] = oldString;
         };
-    
         return myArr.join("");
     } else {
         return 'ERROR';
